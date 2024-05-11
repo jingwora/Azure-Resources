@@ -1,7 +1,9 @@
-# Azure-Resources
-This repositories offer tools and resources for managing and deploying Azure resources.
+# DevOps Engineer
 
-## Azure Resource Management Template
+
+## Infrastructure as Code（IaC)
+
+### Azure Resource Management Template (ARM Template)
 - Tutorial: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-cli
 
 - Temaplate: https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
