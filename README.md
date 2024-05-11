@@ -39,7 +39,7 @@
 
 | DevOps   Lifecycle Stage |        Azure       |                   AWS                   |                     GCP                    |             Other             |
 |:------------------------:|:------------------:|:---------------------------------------:|:------------------------------------------:|:-----------------------------:|
-| Plan                     | Azure   Boards     | AWS   CodeStar                          | Google   Issue Tracker                     | Jira,   Confluence, Trello    |
+| Plan                     | Azure   Boards     | AWS   CodeStar                          | Google   Issue Tracker                     | Jira,   Confluence, Trello, Asana    |
 | Code                     | Azure   Repos      | AWS   CodeCommit                        | Cloud   Source Repositories                | GitHub,   GitLab, Bitbucket   |
 | Build                    | Azure   Pipelines  | AWS   CodeBuild                         | Cloud   Build                              | Jenkins,   Maven, Gradle      |
 | Test                     | Azure   Test Plans | AWS   CodeBuild                         | Cloud   Test Lab                           | Selenium,   JUnit, TestNG     |
