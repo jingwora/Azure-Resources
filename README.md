@@ -78,7 +78,13 @@ Workflow models define conventions for using Git to enhance the development proc
 
 ## Infrastructure as Code（IaC)
 
-### Azure Resource Management Template (ARM Template)
+**Azure Resource Manager (ARM)** - Specific to Azure, it manages infrastructure through JSON templates and provides dependency management among resources.
+
 - Tutorial: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-cli
 
 - Temaplate: https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
+
+**Terraform** - Provides an infrastructure definition language that is cloud-agnostic, supporting multiple service providers as well as custom in-house solutions.
+
+**AWS CloudFormation** - Specific to AWS, it defines infrastructure through JSON or YAML templates to create and manage a collection of related AWS resources.
+
