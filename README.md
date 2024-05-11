@@ -76,15 +76,22 @@ Workflow models define conventions for using Git to enhance the development proc
 
 
 
-## Infrastructure as Code（IaC)
+### Infrastructure as Code（IaC)
 
-**Azure Resource Manager (ARM)** - Specific to Azure, it manages infrastructure through JSON templates and provides dependency management among resources.
+Infrastructure as Code (IaC) is a key practice in the field of DevOps that automates the provisioning and management of infrastructure through code instead of manual processes. 
+
+
+**Terraform:** Developed by HashiCorp, Terraform allows users to define and provision infrastructure across a variety of service providers using a high-level configuration language. It is known for its ability to manage both cloud and on-premises resources.
+
+**Ansible:** Owned by Red Hat, Ansible is an open-source tool that automates software provisioning, configuration management, and application deployment. Ansible uses YAML for its playbooks and is appreciated for its simplicity and agentless architecture.
+
+**AWS CloudFormation:** Specifically designed for AWS, CloudFormation allows users to define and provision AWS infrastructure using a declarative template. It integrates deeply with AWS services and manages dependencies between resources effectively.
+
+**Azure Resource Manager (ARM):** ARM is the native IaC tool for Microsoft Azure, providing a management layer that enables users to create, update, and delete resources in their Azure account. It uses JSON to define the resources.
 
 - Tutorial: https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-cli
 
 - Temaplate: https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
 
-**Terraform** - Provides an infrastructure definition language that is cloud-agnostic, supporting multiple service providers as well as custom in-house solutions.
-
-**AWS CloudFormation** - Specific to AWS, it defines infrastructure through JSON or YAML templates to create and manage a collection of related AWS resources.
+**Google Cloud Deployment Manager:** Similar to AWS CloudFormation and ARM, this tool is for Google Cloud Platform. It enables users to write flexible templates and configurations and deploy resources repeatably.
 
