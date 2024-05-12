@@ -1,15 +1,15 @@
 ## DevOps Tools
 
-| DevOps   Lifecycle Stage |        Azure       |                   AWS                   |                     GCP                    |             Other             |
-|:------------------------:|:------------------:|:---------------------------------------:|:------------------------------------------:|:-----------------------------:|
-| Plan                     | Azure   Boards     | AWS   CodeStar                          | Google   Issue Tracker                     | Jira,   Confluence, Trello, Asana    |
-| Code                     | Azure   Repos      | AWS   CodeCommit                        | Cloud   Source Repositories                | GitHub,   GitLab, Bitbucket   |
-| Build                    | Azure   Pipelines  | AWS   CodeBuild                         | Cloud   Build                              | Jenkins,   Maven, Gradle      |
-| Test                     | Azure   Test Plans | AWS   CodeBuild                         | Cloud   Test Lab                           | Selenium,   JUnit, TestNG     |
-| Release                  | Azure   Pipelines  | AWS   CodePipeline                      | Cloud   Build                              | Jenkins,   GitLab CI, Bamboo  |
-| Deploy                   | Azure   Pipelines  | AWS   CodeDeploy, AWS Elastic Beanstalk | Google   Kubernetes Engine                 | Ansible,   Docker, Kubernetes |
-| Operate                  | Azure   DevOps     | AWS   OpsWorks, AWS Systems Manager     | Google   Operations (formerly Stackdriver) | Nagios,   Grafana, Prometheus |
-| Monitor                  | Azure   Monitor    | Amazon   CloudWatch                     | Google   Operations (formerly Stackdriver) | Splunk, New Relic, Datadog    |
+| Lifecycle Stage | GitHub                                           | Azure            | AWS                                   | GCP                                      | Other                           |
+|-----------------|--------------------------------------------------|------------------|---------------------------------------|------------------------------------------|---------------------------------|
+| Plan            | GitHub Projects, GitHub Issues                   | Azure Boards     | AWS CodeStar                          | Google Issue Tracker                     | Jira, Confluence, Trello, Asana |
+| Code            | GitHub Repositories                              | Azure Repos      | AWS CodeCommit                        | Cloud Source Repositories                | GitHub, GitLab, Bitbucket       |
+| Build           | GitHub Actions, GitHub CI                        | Azure Pipelines  | AWS CodeBuild                         | Cloud Build                              | Jenkins, Maven, Gradle          |
+| Test            | GitHub Actions, GitHub CI                        | Azure Test Plans | AWS CodeBuild                         | Cloud Test Lab                           | Selenium, JUnit, TestNG         |
+| Release         | GitHub Actions, GitHub Release                   | Azure Pipelines  | AWS CodePipeline                      | Cloud Build                              | Jenkins, GitLab CI, Bamboo      |
+| Deploy          | GitHub Actions, GitHub Pages, GitHub Deployments | Azure Pipelines  | AWS CodeDeploy, AWS Elastic Beanstalk | Google Kubernetes Engine                 | Ansible, Docker, Kubernetes     |
+| Operate         | GitHub Apps, Webhooks                            | Azure DevOps     | AWS OpsWorks, AWS Systems Manager     | Google Operations (formerly Stackdriver) | Nagios, Grafana, Prometheus     |
+| Monitor         | GitHub Actions, Webhooks                         | Azure Monitor    | Amazon CloudWatch                     | Google Operations (formerly Stackdriver) | Splunk, New Relic, Datadog      |
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
