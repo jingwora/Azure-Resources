@@ -1,15 +1,15 @@
 ## DevOps Tools
 
-| Lifecycle Stage | GitHub                                           | Azure            | AWS                                   | GCP                                      | Other                           |
-|-----------------|--------------------------------------------------|------------------|---------------------------------------|------------------------------------------|---------------------------------|
-| Plan            | GitHub Projects, GitHub Issues                   | Azure Boards     | AWS CodeStar                          | Google Issue Tracker                     | Jira, Confluence, Trello, Asana |
-| Code            | GitHub Repositories                              | Azure Repos      | AWS CodeCommit                        | Cloud Source Repositories                | Bitbucket       |
-| Build           | GitHub Actions, GitHub CI                        | Azure Pipelines  | AWS CodeBuild                         | Cloud Build                              | Jenkins, Maven, Gradle          |
-| Test            | GitHub Actions, GitHub CI                        | Azure Test Plans | AWS CodeBuild                         | Cloud Test Lab                           | Selenium, JUnit, TestNG         |
-| Release         | GitHub Actions, GitHub Release                   | Azure Pipelines  | AWS CodePipeline                      | Cloud Build                              | Jenkins, Bamboo      |
-| Deploy          | GitHub Actions, GitHub Pages, GitHub Deployments | Azure Pipelines  | AWS CodeDeploy, AWS Elastic Beanstalk | Google Kubernetes Engine                 | Ansible, Docker, Kubernetes     |
-| Operate         | GitHub Apps, Webhooks                            | Azure DevOps     | AWS OpsWorks, AWS Systems Manager     | Google Operations (formerly Stackdriver) | Nagios, Grafana, Prometheus     |
-| Monitor         | GitHub Actions, Webhooks                         | Azure Monitor    | Amazon CloudWatch                     | Google Operations (formerly Stackdriver) | Splunk, New Relic, Datadog      |
+| Lifecycle Stage | GitHub                                           | GitLab                            | Atlassian        | Azure            | AWS                                   | GCP                                      | Red Hat            | Other                                   |
+|-----------------|--------------------------------------------------|-----------------------------------|------------------|------------------|---------------------------------------|------------------------------------------|--------------------|-----------------------------------------|
+| Plan            | GitHub Projects, GitHub Issues                   | GitLab Issue Board                | Jira, Confluence | Azure Boards     | AWS CodeStar                          | Google Issue Tracker                     | -                  | Trello, Asana                           |
+| Code            | GitHub Repositories                              | GitLab SCM                        | Bitbucket        | Azure Repos      | AWS CodeCommit                        | Cloud Source Repositories                | -                  | Subversion, Mercurial                   |
+| Build           | GitHub Actions, GitHub CI                        | GitLab CI/CD                      | Bamboo           | Azure Pipelines  | AWS CodeBuild                         | Cloud Build                              | OpenShift CI/CD    | Jenkins, CircleCI, Travis CI            |
+| Test            | GitHub Actions, GitHub CI                        | GitLab CI/CD                      | Bamboo           | Azure Test Plans | AWS CodeBuild                         | Cloud Test Lab                           | -                  | Selenium, JUnit, TestNG, Cypress, Mocha |
+| Release         | GitHub Actions, GitHub Release                   | GitLab CI/CD, GitLab Releases     | Bamboo           | Azure Pipelines  | AWS CodePipeline                      | Cloud Build                              | OpenShift CI/CD    | Jenkins, CircleCI, GoCD                 |
+| Deploy          | GitHub Actions, GitHub Pages, GitHub Deployments | GitLab CI/CD, GitLab Environments | Bamboo           | Azure Pipelines  | AWS CodeDeploy, AWS Elastic Beanstalk | Google Kubernetes Engine                 | OpenShift, Ansible | Docker, Kubernetes, Helm, Puppet        |
+| Operate         | GitHub Apps, Webhooks                            | GitLab Monitoring                 | -                | Azure DevOps     | AWS OpsWorks, AWS Systems Manager     | Google Operations (formerly Stackdriver) | OpenShift, Ansible | Nagios, Grafana, Prometheus, Chef       |
+| Monitor         | GitHub Actions, Webhooks                         | GitLab Monitoring                 | -                | Azure Monitor    | Amazon CloudWatch                     | Google Operations (formerly Stackdriver) | -                  | Splunk, New Relic, Datadog, Zabbix, ELK |
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
