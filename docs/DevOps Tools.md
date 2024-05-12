@@ -11,32 +11,37 @@
 | Operate         | GitHub Apps, Webhooks                            | GitLab Monitoring                 | -                | Azure DevOps     | AWS OpsWorks, AWS Systems Manager     | Google Operations (formerly Stackdriver) | OpenShift, Ansible | Nagios, Grafana, Prometheus, Chef       |
 | Monitor         | GitHub Actions, Webhooks                         | GitLab Monitoring                 | -                | Azure Monitor    | Amazon CloudWatch                     | Google Operations (formerly Stackdriver) | -                  | Splunk, New Relic, Datadog, Zabbix, ELK |
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+### Explaination
+This table provides a comprehensive comparison of various tools and platforms across the DevOps lifecycle stages. Each column represents a different vendor or category of tools, while each row corresponds to a specific stage in the DevOps lifecycle. This format helps users easily compare and contrast the functionalities offered by each tool and platform at different stages of development, from planning through monitoring.
 
-Git Hosting Services
-These platforms provide remote hosting for Git repositories, facilitating collaboration, issue tracking, and sometimes CI/CD pipelines.
+The purpose of this table is to aid IT professionals, project managers, and developers in selecting the right tools for their DevOps needs by providing a clear, side-by-side comparison of what each tool and platform offers at various stages of the software development lifecycle. This overview enables organizations to better align their tool choices with their specific workflow requirements and strategic goals, fostering more efficient and effective DevOps practices.
 
-- **GitHub:** The most popular Git repository hosting service, offering collaboration features, GitHub Actions for CI/CD, and a robust ecosystem of integrations.
-- **GitLab:** A comprehensive DevOps platform providing repository management, built-in CI/CD, issue tracking, and more, all within a single application.
-- **Bitbucket:** Hosted by Atlassian, this service integrates well with JIRA and other Atlassian products, providing repository hosting and CI/CD via Bitbucket Pipelines.
-- **Azure Repos:** Part of Azure DevOps, it offers Git repository hosting and integration with Azure Boards for project management and Azure Pipelines for CI/CD.
+### Column Descriptions:
+- GitHub: This column showcases tools and services provided by GitHub, focusing on project management, source code management, continuous integration and delivery, and monitoring. Key offerings include GitHub Projects, GitHub Issues, GitHub Actions, and GitHub Repositories.
 
+- GitLab: Similar to GitHub, this column highlights GitLab's integrated suite that covers everything from issue tracking and source code management to CI/CD pipelines and monitoring, all within one platform.
 
-### Automation Tools
-These tools are primarily focused on automating parts of the development workflow, particularly around continuous integration and deployment.
+- Atlassian: Atlassian’s tools are grouped together to emphasize their strengths in project planning, issue tracking, and build automation, with popular tools like Jira, Confluence, and Bamboo.
 
-Jenkins
-- **GitHub Actions:** Allows you to automate, customize, and execute your software development workflows right within your GitHub repository.
-- **GitLab CI/CD:** Provides a powerful and integrated CI/CD service within GitLab, supporting complex workflows.
-- **Jenkins:** An extendable open-source CI/CD server that can automate various stages of your delivery pipeline. It’s highly customizable with plugins.
-- **CircleCI:** A CI/CD tool that integrates deeply with GitHub and Bitbucket, known for its performance and easy configuration.
+- Azure: Represents Microsoft's cloud services that support various DevOps practices such as Azure Boards for project management, Azure Repos for source control, and Azure Pipelines for CI/CD.
 
-### Workflow Models
-Workflow models define conventions for using Git to enhance the development process, making it more structured and manageable.
-- **Git Flow:** A branching model proposed by Vincent Driessen. It's especially suited for projects with scheduled release cycles, defining specific roles for branches.
-- **GitHub Flow:** A simpler alternative to Git Flow, optimized for continuous deployment. It typically uses a single main branch with feature branches.
-- **GitLab Flow:** Combines feature-driven development and feature branching with issue tracking, closely integrating with the CI/CD capabilities of GitLab.
+- AWS: This column covers Amazon Web Services' offerings that facilitate DevOps processes, including AWS CodeStar for project management, AWS CodeCommit for source control, and AWS CodeBuild for building and testing applications.
 
+- GCP: Google Cloud Platform’s tools, such as Google Issue Tracker and Cloud Build, are featured here, emphasizing GCP’s integration and scalability in cloud-based DevOps environments.
+
+- Red Hat: Focuses on enterprise-level solutions provided by Red Hat, including OpenShift for container orchestration and Ansible for automation, which support robust deployment and operational capabilities.
+
+- Other: This column includes a variety of additional tools that are widely used in the industry but not tied to a specific major platform. These include Jenkins, CircleCI, Docker, Kubernetes, and more, covering various aspects of building, deploying, and monitoring applications.
+
+### Row Descriptions:
+- Plan: Tools and services used for project planning and issue tracking.
+- Code: Platforms and services that support version control and source code management.
+- Build: Tools that automate the building of code, a key component of continuous integration practices.
+- Test: Solutions that automate testing, ensuring that code changes are viable and stable.
+- Release: Tools that manage and automate the release process, enabling continuous delivery.
+- Deploy: Technologies that automate the deployment process, ensuring smooth and scalable application rollouts.
+- Operate: Tools that help in the operation and management of applications in production environments.
+- Monitor: Solutions that provide monitoring and logging capabilities to track the performance and health of applications.
 
 
 ### Infrastructure as Code（IaC)
