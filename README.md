@@ -28,7 +28,9 @@
 **8. Monitor:** The entire infrastructure and application are monitored for issues. Tools like Prometheus, Grafana, or ELK Stack are used to log and visualize performance.
 
 **9. Feedback and Optimize:** Feedback from monitoring tools and from users is gathered and analyzed to identify areas for improvement.
+
 ---
+
 | Feature                     | Normal Development                  | DevOps                              | MLOps                                | LLMOps                              |
 |-----------------------------|-------------------------------------|-------------------------------------|--------------------------------------|-------------------------------------|
 | **Scope**                   | General software development        | Continuous integration and delivery | Machine learning model lifecycle     | Large language model lifecycle      |
